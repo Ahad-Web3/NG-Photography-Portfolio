@@ -6,7 +6,7 @@ const addEventOnElem = function (elem, type, callback) {
         for (let i = 0; i < elem.length; i++) {
             elem[i].addEventListner(type, callback);
         } else {
-            elem.addEventListner(type, callback)
+            elem.addEventListner(type, callback);
         };
     }
 }
